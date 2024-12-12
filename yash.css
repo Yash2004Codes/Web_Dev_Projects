@@ -1,0 +1,65 @@
+header{
+    text-align: center;
+}
+
+.navbar ul{
+
+    list-style-type: none;
+    overflow:hidden;
+    background-color: aqua;
+    
+}
+
+.navbar li{
+    float:left
+}
+
+.navbar a{
+    display:block;
+    padding:15px;
+}
+
+.navbar a:hover{
+    background-color:rgb(87, 20, 211);
+}
+
+footer div {
+    background: linear-gradient(to right, #d1abab, #8deeec);
+    display:block;/* Flexbox for centering */
+    text-align: center;
+}
+
+
+main div {
+
+    display:flex;/* Flexbox for centering */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Full viewport height for proper centering */
+    text-align: center; /* Align text in the center */
+}
+
+main div img {
+    border-width: 3cm;
+    border-radius: 20px;/* Optional: Makes the image circular */
+    max-width: 100%;
+    height: auto;
+}
+
+
+i {
+    font-size: 30px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack items vertically */
+    }
+}
+
+
+
+
+  
