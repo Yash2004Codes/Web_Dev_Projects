@@ -1,0 +1,52 @@
+.container {
+    border: none;
+    padding: 10px;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    min-width: 500px;
+    max-width: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+.display {
+    border: none;
+    width: 100%; /* Match the container width */
+    height: 50px; /* Set a fixed height for the display */
+    background-color: #222;
+    color: white;
+    font-size: 1.5rem;
+    text-align: right; /* Align text to the right */
+    padding: 10px;
+    margin-bottom: 10px; /* Space between display and buttons */
+    border-radius: 10px;
+}
+
+.btns {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next row */
+    justify-content: center; /* Center buttons */
+    gap: 10px; /* Add space between buttons */
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 50px;
+    height: 80px; /* Slightly smaller button height */
+    width: 80px; /* Slightly smaller button width */
+    background-color: #333;
+    color: white;
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    color: red;
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}

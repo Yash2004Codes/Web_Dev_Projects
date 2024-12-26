@@ -44,7 +44,9 @@ justify-content: space-between;
 }
 .search_bar{
     border:1px solid black;
+    min-width: 100px;
 }
+
 #search-bar{
     display: inline-block;
     float: left;
@@ -61,9 +63,10 @@ justify-content: space-between;
     border-radius: 0 4px 4px 0;
     border-left: 0;
     background: #f5f5f6;
+    width: 20px;
 }
 #search-icon{
-    width: 21px;
+    width: 10px;
     height: 21px;
     background-position: -754px 0;
 }
