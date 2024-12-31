@@ -1,0 +1,16 @@
+.slider{
+    border:2px solid black;
+}
+.slides{
+    border:2px solid black;
+
+}
+
+#bike1{
+    height:200px;
+}
+
+.slides img{
+    width: 100%;
+    display: none;
+}
